@@ -1,0 +1,13 @@
+.place {
+    margin: 0;
+    margin-bottom: 80px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: min-content min-content;
+    gap: 40px 48px;
+    align-content: start;
+    
+}
+.place:last-child {
+    margin-bottom: 0;
+}
