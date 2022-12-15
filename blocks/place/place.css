@@ -1,6 +1,7 @@
 .place {
     margin: 0;
     margin-bottom: 80px;
+    padding: 0;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: min-content min-content;
