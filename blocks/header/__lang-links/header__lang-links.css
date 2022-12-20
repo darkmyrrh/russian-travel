@@ -8,7 +8,7 @@
     column-gap: 18px;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 424px) {
     .header__lang-links {
         margin: 14px 0 8px;
     }

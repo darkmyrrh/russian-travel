@@ -15,21 +15,28 @@
 }
 
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1279px) {
     .cover__background {
         max-width: 1024px;
         min-height: 640px;        
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
     .cover__background {
         max-width: 768px;
         min-height: 480px;        
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
+    .cover__background {
+        max-width: 425px;
+        min-height: 267px;      
+    }
+}
+
+@media screen and (max-width: 424px) {
     .cover__background {
         max-width: 320px;
         min-height: 200px;        
