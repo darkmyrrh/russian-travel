@@ -11,9 +11,27 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    color: white;
+    text-decoration: none;
     z-index: 0;
 }
 
+.cover__background::before {
+    content: "";
+    background-color: #2A2C2F;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.3;
+    z-index: -1;
+    transition: opacity 0.3s linear;
+}
+
+.cover__background:hover::before {
+    opacity: 0.8;
+}
 
 @media screen and (max-width: 1279px) {
     .cover__background {
